@@ -1,42 +1,42 @@
-Dictionary App
+📖 Dictionary App
 
-Description
-A simple dictionary web app that fetches English word definitions using the Free Dictionary API.
-The app displays word meanings, example sentences, and pronunciation audio (if available). Ideal for learning English or quickly checking word definitions.
+A clean and simple dictionary web app that fetches English word definitions, examples, and pronunciation audio using the Free Dictionary API. Perfect for learning English or quickly checking word meanings.
 
-Features
+✨ Features
 
-Enter any English word and search.
+🔹 Enter any English word and search.
 
-Display definitions grouped by part of speech (noun, verb, etc.).
+🔹 Display definitions grouped by part of speech (noun, verb, adjective…).
 
-Show example sentences (if available).
+🔹 Show example sentences if available.
 
-Play pronunciation audio via HTML <audio> element.
+🔹 Play pronunciation audio directly in the browser.
 
-Show a message if the word is not found.
+🔹 Friendly error message if the word is not found.
 
-Technologies
+🛠️ Technologies
 
-HTML5 – structure of the page
+HTML5 – page structure
 
-CSS3 – clean and simple design
+CSS3 – clean, responsive design
 
-JavaScript – asynchronous API calls and DOM manipulation
+JavaScript – asynchronous API calls and dynamic DOM updates
 
 Free Dictionary API – source for definitions, examples, and pronunciation
 
-Usage
+🚀 Usage
 
-Open index.html in a web browser (recommended via Live Server or a local server).
+Clone or download the repository.
 
-Type a word in the search input.
+Open index.html in a web browser (preferably via Live Server in VS Code or a local server).
+
+Type a word in the input field.
 
 Click Search.
 
 Results will appear below with all definitions, examples, and pronunciation audio.
 
-Example
+📝 Example
 
 Word: nature
 
@@ -48,10 +48,11 @@ Definition: “The phenomena of the physical world collectively…”
 
 Example: “The beauty of nature is breathtaking.”
 
-Audio: play button for pronunciation
+Audio: 🔊 play button for pronunciation
 
-Notes
+⚠️ Notes
 
-If the word cannot be found, the app shows: “Could not find that word. Try another.”
+If the word is not found, the app shows:
+“Could not find that word. Try another.”
 
-Results depend on the data provided by the Free Dictionary API.
+Results depend on the Free Dictionary API data.
